@@ -1,7 +1,7 @@
 // < ====== Show menu ====== >
-const showMenu = (toggleId, navId) => {
-  const toggle = document.getElementById(toggleId);
-  const nav = document.getElementById(navId);
+const showMenu = () => {
+  const toggle = document.getElementById("nav-toggle");
+  const nav = document.getElementById("nav-menu");
 
   //validate that variables exist
 
@@ -12,7 +12,7 @@ const showMenu = (toggleId, navId) => {
     });
   }
 };
-showMenu("nav-toggle", "nav-menu");
+showMenu();
 
 // < ====== Remove menu mobile ======= >
 
