@@ -149,7 +149,7 @@ img {
     background-color: var(--body-color);
     padding: 1.5rem 0 1rem;
     position: fixed;
-    top: var(--header-height);
+    top: -100%;
     left: 0;
     text-align: center;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
@@ -179,6 +179,9 @@ img {
 }
 
 /* < ====== Show menu ====== > */
+.show-menu {
+  top: var(--header-height);
+}
 
 /* < ====== Active menu ====== > */
 
