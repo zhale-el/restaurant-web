@@ -196,6 +196,26 @@ img {
 }
 
 /* < ====== Scroll Up  ====== > */
+.scrolltop {
+  background-color: rgba(6, 156, 84, 0.5);
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.3rem;
+  border-radius: 0.4rem;
+  z-index: var(--z-tooltip);
+  /* visibility: hidden; */
+}
+.scrolltop:hover {
+  background-color: var(--first-color-alt);
+}
+.scrolltop_icon {
+  font-size: 1.8rem;
+  color: var(--body-color);
+}
 
 /* < ======Show scrolltop  ====== > */
 
