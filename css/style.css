@@ -280,10 +280,22 @@ img {
   text-align: center;
 }
 .service__img {
+  background: var(--first-color);
   width: 64px;
   height: 64px;
-  fill: var(--first-color);
-  margin-bottom: var(--mb-2);
+  margin: 0 auto var(--mb-2);
+}
+.dish {
+  mask: url("../img/dish.svg") no-repeat center;
+  -webkit-mask: url("../img/dish.svg") no-repeat center;
+}
+.pizza {
+  mask: url("../img/pizza.svg") no-repeat center;
+  -webkit-mask: url("../img/pizza.svg") no-repeat center;
+}
+.delivery {
+  mask: url("../img/truck.svg") no-repeat center;
+  -webkit-mask: url("../img/truck.svg") no-repeat center;
 }
 .services__titele {
   font-size: var(--h3-font-size);
